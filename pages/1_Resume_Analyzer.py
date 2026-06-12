@@ -14,7 +14,7 @@ st.markdown("# 📄 Resume Analyzer")
 st.markdown("Upload your CV and get an instant ATS score, skill extraction, and improvement tips.")
 st.markdown("---")
 
-# Input 
+# ── Input ──────────────────────────────────────────
 col1, col2 = st.columns([1, 1])
 
 with col1:
@@ -99,7 +99,7 @@ ACHIEVEMENTS
 
 analyze_btn = st.button("🔍 Analyze Resume", type="primary", use_container_width=True)
 
-# Analysis Output 
+# ── Analysis Output ─────────────────────────────────
 if analyze_btn and resume_text.strip():
     st.markdown("---")
     st.markdown("## 📊 Analysis Results")

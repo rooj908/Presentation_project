@@ -1,5 +1,5 @@
 """
-Job Database Sample job listings for demo/testing
+Job Database — Sample job listings for demo/testing
 In production, this would be replaced by LinkedIn scraper data.
 """
 
@@ -9,7 +9,7 @@ JOBS_DATABASE = [
         "title": "Data Scientist",
         "company": "TechCorp Solutions",
         "location": "Karachi, Pakistan",
-        "type": "Full time",
+        "type": "Full-time",
         "experience": "0-2 years",
         "posted": "2 days ago",
         "salary": "PKR 80,000 - 120,000/month",
@@ -49,16 +49,16 @@ JOBS_DATABASE = [
         "title": "Machine Learning Engineer",
         "company": "AI Startup Hub",
         "location": "Islamabad, Pakistan",
-        "type": "Full time",
+        "type": "Full-time",
         "experience": "2-4 years",
         "posted": "3 days ago",
         "salary": "PKR 100,000 - 160,000/month",
-        "description": "Build production grade ML systems from research to deployment. Work with state of the art models including transformers and LLMs.",
+        "description": "Build production-grade ML systems from research to deployment. Work with state-of-the-art models including transformers and LLMs.",
         "required_skills": ["python", "pytorch", "tensorflow", "machine learning", "deep learning", "docker"],
         "preferred_skills": ["kubernetes", "aws", "mlflow", "transformers", "bert"],
         "responsibilities": [
             "Design ML pipelines end-to-end",
-            "Fine tune and deploy LLMs",
+            "Fine-tune and deploy LLMs",
             "Optimize model performance",
             "Monitor model drift in production"
         ],
@@ -69,11 +69,11 @@ JOBS_DATABASE = [
         "title": "Full Stack Web Developer",
         "company": "WebSolutions Pvt Ltd",
         "location": "Karachi, Pakistan",
-        "type": "Full time",
+        "type": "Full-time",
         "experience": "1-3 years",
         "posted": "Today",
         "salary": "PKR 60,000 - 90,000/month",
-        "description": "Build end to end web applications using React and Node.js. Work in an agile team delivering quality products.",
+        "description": "Build end-to-end web applications using React and Node.js. Work in an agile team delivering quality products.",
         "required_skills": ["javascript", "react", "node.js", "html", "css", "sql"],
         "preferred_skills": ["typescript", "mongodb", "docker", "aws"],
         "responsibilities": [
@@ -89,11 +89,11 @@ JOBS_DATABASE = [
         "title": "Data Analyst",
         "company": "Analytics Pro",
         "location": "Remote (Pakistan)",
-        "type": "Full time",
+        "type": "Full-time",
         "experience": "0-2 years",
         "posted": "5 days ago",
         "salary": "PKR 55,000 - 85,000/month",
-        "description": "Analyze business data and create insightful reports and dashboards. Help stakeholders make data driven decisions.",
+        "description": "Analyze business data and create insightful reports and dashboards. Help stakeholders make data-driven decisions.",
         "required_skills": ["python", "sql", "excel", "data analysis", "data visualization"],
         "preferred_skills": ["tableau", "power bi", "pandas", "statistics"],
         "responsibilities": [
@@ -109,16 +109,16 @@ JOBS_DATABASE = [
         "title": "NLP / AI Engineer",
         "company": "FinTech Innovations",
         "location": "Lahore, Pakistan",
-        "type": "Full time",
+        "type": "Full-time",
         "experience": "1-3 years",
         "posted": "4 days ago",
         "salary": "PKR 90,000 - 140,000/month",
-        "description": "Work on cutting edge NLP systems for financial document processing, chatbots, and text analytics.",
+        "description": "Work on cutting-edge NLP systems for financial document processing, chatbots, and text analytics.",
         "required_skills": ["python", "nlp", "transformers", "bert", "scikit-learn", "sql"],
         "preferred_skills": ["pytorch", "spacy", "fastapi", "docker", "gpt"],
         "responsibilities": [
             "Build NLP pipelines for text classification",
-            "Fine tune transformer models",
+            "Fine-tune transformer models",
             "Deploy AI microservices",
             "Research new NLP techniques"
         ],
@@ -129,7 +129,7 @@ JOBS_DATABASE = [
         "title": "Cloud DevOps Engineer",
         "company": "CloudBase Systems",
         "location": "Karachi, Pakistan",
-        "type": "Full time",
+        "type": "Full-time",
         "experience": "2-5 years",
         "posted": "1 week ago",
         "salary": "PKR 110,000 - 170,000/month",
@@ -149,7 +149,7 @@ JOBS_DATABASE = [
         "title": "Junior Data Scientist (Fresher)",
         "company": "StartUp Karachi",
         "location": "Karachi, Pakistan",
-        "type": "Full time",
+        "type": "Full-time",
         "experience": "Fresh Graduate",
         "posted": "Today",
         "salary": "PKR 45,000 - 65,000/month",
@@ -178,7 +178,7 @@ JOBS_DATABASE = [
         "preferred_skills": ["typescript", "tailwind", "next.js", "figma", "rest api"],
         "responsibilities": [
             "Implement UI/UX designs in React",
-            "Ensure cross browser compatibility",
+            "Ensure cross-browser compatibility",
             "Optimize frontend performance",
             "Work closely with designers"
         ],
@@ -189,11 +189,11 @@ JOBS_DATABASE = [
         "title": "Senior Python / ML Engineer",
         "company": "Global Tech Corp",
         "location": "Islamabad, Pakistan",
-        "type": "Full time",
+        "type": "Full-time",
         "experience": "4+ years",
         "posted": "3 days ago",
         "salary": "PKR 160,000 - 250,000/month",
-        "description": "Lead a team of ML engineers to build next generation AI products. Architecture, mentoring, and delivery responsibility.",
+        "description": "Lead a team of ML engineers to build next-generation AI products. Architecture, mentoring, and delivery responsibility.",
         "required_skills": ["python", "machine learning", "deep learning", "docker", "aws", "leadership"],
         "preferred_skills": ["kubernetes", "mlflow", "pytorch", "tensorflow", "agile"],
         "responsibilities": [

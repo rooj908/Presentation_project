@@ -13,7 +13,7 @@ st.markdown("---")
 if "tracked_jobs" not in st.session_state:
     st.session_state["tracked_jobs"] = []
 
-# Add Application Manually 
+# ── Add Application Manually ─────────────────────────
 with st.expander("➕ Add New Application", expanded=len(st.session_state["tracked_jobs"]) == 0):
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -50,7 +50,7 @@ with st.expander("➕ Add New Application", expanded=len(st.session_state["track
         else:
             st.warning("Job Title and Company are required.")
 
-# Load sample data 
+# ── Load sample data ─────────────────────────────────
 if st.button("📥 Load Sample Data (Demo)") and not st.session_state["tracked_jobs"]:
     sample = [
         {"id": 0, "title": "Data Scientist", "company": "TechCorp Solutions",
@@ -69,7 +69,7 @@ if st.button("📥 Load Sample Data (Demo)") and not st.session_state["tracked_j
     st.session_state["tracked_jobs"] = sample
     st.rerun()
 
-# Stats 
+# ── Stats ─────────────────────────────────────────────
 apps = st.session_state["tracked_jobs"]
 
 if apps:

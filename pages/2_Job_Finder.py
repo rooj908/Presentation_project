@@ -11,7 +11,7 @@ st.markdown("# 🔍 AI Job Finder")
 st.markdown("Enter your skills and let AI match you to the best job opportunities.")
 st.markdown("---")
 
-# Sidebar Filters 
+# ── Sidebar Filters ─────────────────────────────────
 with st.sidebar:
     st.markdown("### 🎯 Search Filters")
 
@@ -48,7 +48,7 @@ with st.sidebar:
 
 search_btn = st.button("🚀 Find Matching Jobs", type="primary", use_container_width=True)
 
-# Job Results
+# ── Job Results ─────────────────────────────────────
 user_skills = [s.strip().lower() for s in skills_input.split(",") if s.strip()] if skills_input else []
 
 if search_btn or True:  # Always show jobs

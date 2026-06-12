@@ -7,7 +7,9 @@ import re
 import json
 from collections import Counter
 
+# ─────────────────────────────────────────────
 # SKILLS DATABASE
+# ─────────────────────────────────────────────
 
 SKILLS_DB = {
     "programming": [
@@ -55,7 +57,9 @@ for category, skills in SKILLS_DB.items():
         SKILL_CATEGORY_MAP[skill] = category
 
 
+# ─────────────────────────────────────────────
 # RESUME PARSING
+# ─────────────────────────────────────────────
 
 def extract_text_from_string(text: str) -> str:
     """Clean and normalize text."""
@@ -132,7 +136,9 @@ def extract_education(text: str) -> list:
     return list(set(degrees))
 
 
+# ─────────────────────────────────────────────
 # ATS SCORING
+# ─────────────────────────────────────────────
 
 ATS_WEIGHTS = {
     "skills_count": 30,
@@ -254,12 +260,14 @@ def get_ats_suggestions(text: str, skills_found: dict, score_data: dict) -> list
         suggestions.append("💻 Add your GitHub profile or portfolio link")
 
     if not suggestions:
-        suggestions.append("🌟 Your resume is well optimized! Keep it updated.")
+        suggestions.append("🌟 Your resume is well-optimized! Keep it updated.")
 
     return suggestions
 
 
+# ─────────────────────────────────────────────
 # JOB MATCHING
+# ─────────────────────────────────────────────
 
 def calculate_job_match(user_skills: list, job_required_skills: list, job_preferred_skills: list = None) -> dict:
     """Calculate match percentage between user skills and job requirements."""
@@ -308,7 +316,9 @@ def get_match_grade(pct: float) -> str:
         return "🔴 Low Match"
 
 
+# ─────────────────────────────────────────────
 # SALARY ESTIMATION
+# ─────────────────────────────────────────────
 
 SALARY_DATA = {
     "fresher": {

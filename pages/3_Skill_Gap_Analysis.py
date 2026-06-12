@@ -13,7 +13,7 @@ st.markdown("# 📊 Skill Gap Analysis")
 st.markdown("Compare your current skills against job requirements to identify what you need to learn.")
 st.markdown("---")
 
-# Input 
+# ── Input ──────────────────────────────────────────
 col1, col2 = st.columns([1, 1])
 
 with col1:
@@ -38,7 +38,7 @@ with col2:
 
 analyze_btn = st.button("🔍 Analyze Skill Gap", type="primary", use_container_width=True)
 
-# Results 
+# ── Results ─────────────────────────────────────────
 if analyze_btn:
     user_skills = [s.strip().lower() for s in user_skills_input.split(",") if s.strip()]
 
